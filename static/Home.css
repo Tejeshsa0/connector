@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(150, 193, 207);
+}
+
+a {
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(33, 189, 189);
+}
+
+#profilediv {
+    position: fixed;
+
+}
+
+#profileimg {
+    width: 300px;
+    height: 300px;
+}
+
+#searchimg {
+    border-radius: 50%;
+}
+
+.profilename {
+    text-align: center;
+}
+
+div.linkdiv {
+    background-color: rgb(33, 95, 189);
+}
+
+a.fill {
+    color: black;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.formdiv {
+
+    padding: 20px;
+    border: black;
+    border-radius: 5%;
+    background-color: white;
+    /* margin-top: 150px; */
+    width: 500px
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.formdivUp {
+
+    padding: 20px;
+    border: black;
+    border-radius: 5%;
+    background-color: white;
+    /* margin-top: 150px; */
+    width: 500px
+}
+
+.containbtn {
+    width: 300px;
+}
+
+a.filledit {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.postname {
+    color: black;
+    font-weight: bold;
+}
+
+.superbutton {
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
