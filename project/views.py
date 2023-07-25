@@ -52,7 +52,7 @@ def signup(request):
             new_profile.save()
             return redirect('/')   
     else:
-        return render(request,'signup.html')
+        return render(request,'Signup.html')
 
 #sign in page (main page)
 def signin(request):
